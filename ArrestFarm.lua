@@ -2,19 +2,19 @@
 -- Written by NT Authority
 
 local Hashes = {
-    -- NEW 11.11.2020
+    -- NEW 12.11.2020
 
-    EquipItem = "d6842df9",
-    Eject = "a4ab08dd",
-    SendVault = "d9d07541",
-    TeamChange = "c10c9170",
-    Arrest = "f5f4f274",
-    SpawnVehicle = "f59f7e7c",
-    RopeAttach = "a9aec091",
-    GetDonut = "d0d703e1",
-    EatDonut = "a4a53692",
-    EnterVehicle = "ccb3bd55",
-    LockCar = "d617d0b4"
+    EquipItem = "efeb47e",
+    Eject = "aba51f00",
+    SendVault = "a46f4125",
+    TeamChange = "e6a7213b",
+    Arrest = "b47ffe9b",
+    SpawnVehicle = "aac205f9",
+    RopeAttach = "ef225436",
+    GetDonut = "d468001e",
+    EatDonut = "e6eee5fc",
+    EnterVehicle = "bd222eaa",
+    LockCar = "b12822b5"
     --
 }
 
@@ -28,10 +28,10 @@ local previousHashes = {
     Arrest = "f5f4f274",
     SpawnVehicle = "f59f7e7c",
     RopeAttach = "a9aec091",
-    GetDonut = "d0d703e1",
-    EatDonut = "a4a53692",
-    EnterVehicle = "ccb3bd55",
-    LockCar = "d617d0b4"
+    GetDonut = "d468001e",
+    EatDonut = "e6eee5fc",
+    EnterVehicle = "bd222eaa",
+    LockCar = "b12822b5"
     --
 }
 
@@ -121,12 +121,12 @@ local function GoToNew()
                 if syn then
                     syn.queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Sunniwashere/Jailbricked/1a7235cc8ea0d47a9948e111b4f1462eef3c6388/ArrestFarm.lua'))()"
                     )
                 else
                     queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Sunniwashere/Jailbricked/1a7235cc8ea0d47a9948e111b4f1462eef3c6388/ArrestFarm.lua'))()"
                     )
                 end
             end
